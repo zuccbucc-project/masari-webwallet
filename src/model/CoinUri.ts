@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2018, Gnock
- * Copyright (c) 2018, The Masari Project
+ * Copyright (c) 2018, The Zuccbucc Project
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
  *
@@ -15,8 +15,8 @@
 
 export class CoinUri{
 
-	static coinTxPrefix = 'masari:';
-	static coinWalletPrefix = 'masari:';
+	static coinTxPrefix = 'zuccbucc:';
+	static coinWalletPrefix = 'zuccbucc:';
 	static coinAddressLength = 95;
 
 	static decodeTx(str : string) : {

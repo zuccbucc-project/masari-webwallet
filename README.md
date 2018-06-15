@@ -1,8 +1,8 @@
-Fully client side Masari Web Wallet
+Fully client side Zuccbucc Web Wallet
 
 # Disclaimer
 The project was originally a proof of concept to allow a browser to connect directly on a cryptonight blockchain
-It evolved into a new generation of Web Wallet for cryptonight coin, especially for Masari
+It evolved into a new generation of Web Wallet for cryptonight coin, especially for Zuccbucc
 
 # Project
 This web wallet is doing everything on the client side, the server is currently only used to optimize

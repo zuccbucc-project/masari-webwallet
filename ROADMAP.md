@@ -4,7 +4,7 @@ The order of this list may not reflect the order in which those functionalities 
 - error message when no camera access
 - stop sync
 - improve tx fee calculation
-- send "all my msr" button
+- send "all my zucc" button
 - better support of offline/online and network disconnection resistance
 - adding the wallet balance in the side menu
 - drive storage for synchronisation (http://remotestoragejs.readthedocs.io/en/latest/index.html)
@@ -14,7 +14,7 @@ The order of this list may not reflect the order in which those functionalities 
 - receive page: add mempool check (only when payment id) & progression
 - offline payment made easier
 - p2p connection between a computer and another device(phone, ...) for a sync method (to reduce the heat on small devices)
-- and in the "long term" (3/6 month) it will connect directly on a masarid ! (i will work with the others (thaer, crypto) to improve the rpc so allow it)
+- and in the "long term" (3/6 month) it will connect directly on a zuccbuccd ! (i will work with the others (thaer, crypto) to improve the rpc so allow it)
 - detect when multiple tabs are open to prevent data collision
 - continue to scan while the page is not focused
 - support https://github.com/monero-project/monero/wiki/URI-Formatting

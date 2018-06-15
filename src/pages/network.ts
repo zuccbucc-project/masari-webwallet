@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2018, Gnock
- * Copyright (c) 2018, The Masari Project
+ * Copyright (c) 2018, The Zuccbucc Project
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
  *
@@ -52,7 +52,7 @@ class NetworkView extends DestructableView{
 	refreshStats() {
 		let self = this;
 		$.ajax({
-			url:'https://get.masaricoin.com/api/network/stats'
+			url:'https://get.zuccbucccoin.com/api/network/stats'
 		}).done(function(data : any){
 			self.networkDifficulty = data.difficulty;
 			self.networkHashrate = data.difficulty/120/1000000;

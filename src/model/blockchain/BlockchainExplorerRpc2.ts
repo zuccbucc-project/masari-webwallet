@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2018, Gnock
- * Copyright (c) 2018, The Masari Project
+ * Copyright (c) 2018, The Zuccbucc Project
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
  *
@@ -283,7 +283,7 @@ export class BlockchainExplorerRpc2 implements BlockchainExplorer{
 	}
 
 	// getDaemonUrl(){
-	// 	return this.testnet ? 'http://localhost:48081/' : 'http://localhost:38081/';
+	// 	return this.testnet ? 'http://localhost:48581/' : 'http://localhost:38581/';
 	// }
 
 	scannedHeight : number = 0;

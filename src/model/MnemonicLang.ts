@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2018, Gnock
- * Copyright (c) 2018, The Masari Project
+ * Copyright (c) 2018, The Zuccbucc Project
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
  *
@@ -2344,7 +2344,7 @@ export class MnemonicLang{
 			"medialo","mefito","megafono","mejlo","mekanika","melodia","membro","mendi","mergi","mespilo",
 			"metoda","mevo","mezuri","miaflanke","micelio","mielo","migdalo","mikrofilmo","militi","mimiko",
 			"mineralo","miopa","miri","mistera","mitralo","mizeri","mjelo","mnemoniko","mobilizi","mocio",
-			"moderna","mohajro","mokadi","molaro","momento","masari","mopso","mordi","moskito","motoro",
+			"moderna","mohajro","mokadi","molaro","momento","zuccbucc","mopso","mordi","moskito","motoro",
 			"movimento","mozaiko","mueli","mukozo","muldi","mumio","munti","muro","muskolo","mutacio",
 			"muzikisto","nabo","nacio","nadlo","nafto","naiva","najbaro","nanometro","napo","narciso",
 			"naski","naturo","navigi","naztruo","neatendite","nebulo","necesa","nedankinde","neebla","nefari",

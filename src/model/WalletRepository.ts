@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2018, Gnock
- * Copyright (c) 2018, The Masari Project
+ * Copyright (c) 2018, The Zuccbucc Project
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
  *
@@ -146,15 +146,15 @@ export class WalletRepository{
 		doc.setTextColor(255, 255, 255);
 		doc.setFontSize(10);
 		doc.text(110, 120, "To deposit funds to this paper wallet, send ");
-		doc.text(110, 125, "Masari to the public address");
+		doc.text(110, 125, "Zuccbucc to the public address");
 
 		doc.text(110, 135, "DO NOT REVEAL THE PRIVATE KEY");
 
-		//adding masari logo
+		//adding zuccbucc logo
 		let c : HTMLCanvasElement|null = <HTMLCanvasElement>document.getElementById('canvasExport');
 		if(c !== null) {
 			let ctx = c.getContext("2d");
-			let img: ImageBitmap | null = <ImageBitmap | null>document.getElementById("verticalMasariLogo");
+			let img: ImageBitmap | null = <ImageBitmap | null>document.getElementById("verticalZuccbuccLogo");
 			if (ctx !== null && img !== null) {
 				c.width = img.width;
 				c.height = img.height;

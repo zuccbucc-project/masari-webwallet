@@ -1,7 +1,7 @@
 <div id="app" class="body-root sendTab" v-cloak="">
 	<div class="body-header" >
 		<div class="header-title">
-			<i class="fa fa-level-up" aria-hidden="true"></i> Send MSR
+			<i class="fa fa-level-up" aria-hidden="true"></i> Send ZUCC
 		</div>
 	</div>
 	<div class="body-content" >
@@ -29,7 +29,7 @@
 
 				<div class="field" >
 					<label>Amount to send</label>
-					<input class="amountInput" type="text" v-model="amountToSend" placeholder="10.5 MSR" :readonly="lockedForm"/>
+					<input class="amountInput" type="text" v-model="amountToSend" placeholder="10.5 ZUCC" :readonly="lockedForm"/>
 					<div v-if="!amountToSendValid && amountToSend != ''" class="message error">
 						The amount is invalid
 					</div>

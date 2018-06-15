@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2018, Gnock
- * Copyright (c) 2018, The Masari Project
+ * Copyright (c) 2018, The Zuccbucc Project
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
  *
@@ -255,11 +255,11 @@ class MiningView extends DestructableView{
 			});
 			this.miningAddressesAvailable.push({
 				address: '5nYWvcvNThsLaMmrsfpRLBRou1RuGtLabUwYH7v6b88bem2J4aUwsoF33FbJuqMDgQjpDRTSpLCZu3dXpqXicE2uSWS4LUP',
-				label: 'Donation - Masari'
+				label: 'Donation - Zuccbucc'
 			});
 			this.miningAddressesAvailable.push({
 				address: '9ppu34ocgmeZiv4nS2FyQTFLL5wBFQZkhAfph7wGcnFkc8fkCgTJqxnXuBkaw1v2BrUW7iMwKoQy2HXRXzDkRE76Cz7WXkD',
-				label: 'Donation - Masari exchange listing'
+				label: 'Donation - Zuccbucc exchange listing'
 			});
 			this.miningAddress = '5qfrSvgYutM1aarmQ1px4aDiY9Da7CLKKDo3UkPuUnQ7bT7tr7i4spuLaiZwXG1dFQbkCinRUNeUNLoNh342sVaqTaWqvt8';
 		}else{
@@ -296,7 +296,7 @@ class MiningView extends DestructableView{
 		this.running = true;
 
 		this.pool = new Pool(
-			config.testnet ? 'ws://testnet.masaricoin.com:8080' : 'wss://get.masaricoin.com/mining',
+			config.testnet ? 'ws://testnet.zuccbucccoin.com:8080' : 'wss://get.zuccbucccoin.com/mining',
 			this.miningAddress + '+' + this.difficulty,
 			'atmega',
 			'cn',
