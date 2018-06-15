@@ -10,12 +10,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gnock/zuccbucc-webwallet.git"
+    "url": "git+https://github.com/zuccbucc-project/zuccbucc-webwallet.git"
   },
   "author": "Gnock",
   "license": "BSD-3",
   "bugs": {
-    "url": "https://github.com/gnock/zuccbucc-webwallet/issues"
+    "url": "https://github.com/zuccbucc-project/zuccbucc-webwallet/issues"
   },
-  "homepage": "https://github.com/gnock/zuccbucc-webwallet#readme"
+  "homepage": "https://github.com/zuccbucc-project/zuccbucc-webwallet#readme"
 }
