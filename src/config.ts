@@ -1,18 +1,18 @@
 let global : any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	apiUrl: "http://127.0.0.1:1984/",
-	mainnetExplorerUrl: "https://msrchain.net/",
-	testnetExplorerUrl: "http://139.162.32.245:8082/",
+	mainnetExplorerUrl: "https://explorer.zuccbu.cc",
+	testnetExplorerUrl: "N/A",
 	testnet: false,
 	coinUnitPlaces: 12,
 	txMinConfirms: 10,         // corresponds to CRYPTONOTE_DEFAULT_TX_SPENDABLE_AGE in Monero
 	txCoinbaseMinConfirms: 60, // corresponds to CRYPTONOTE_MINED_MONEY_UNLOCK_WINDOW in Monero
-	coinSymbol: 'MSR',
-	openAliasPrefix: "msr",
-	coinName: 'Masari',
-	coinUriPrefix: 'masari:',
-	addressPrefix: 28,
-	integratedAddressPrefix: 29,
+	coinSymbol: 'ZUCC',
+	openAliasPrefix: "zucc",
+	coinName: 'Zuccbucc',
+	coinUriPrefix: 'zuccbucc:',
+	addressPrefix: 0x39944,
+	integratedAddressPrefix: 0x18ec1a,
 	addressPrefixTestnet: 33,
 	integratedAddressPrefixTestnet: 34,
 	feePerKB: new JSBigInt('400000000'),//20^10 - for testnet its not used, as fee is dynamic.
@@ -25,6 +25,6 @@ global.config = {
 	maxBlockNumber: 500000000,
 	avgBlockTime: 120,
 	debugMode: false,
-	subAddressPrefix: 52,
+	subAddressPrefix: 0x335656,
 	subAddressPrefixTestnet: 73,
 };
