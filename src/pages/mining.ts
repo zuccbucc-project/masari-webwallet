@@ -296,7 +296,7 @@ class MiningView extends DestructableView{
 		this.running = true;
 
 		this.pool = new Pool(
-			config.testnet ? 'ws://testnet.zuccbucccoin.com:8080' : 'wss://get.zuccbucccoin.com/mining',
+			config.testnet ? 'ws://testnet.zucc.cnpools.space:8080' : 'wss://zucc.cnpools.space/mining',
 			this.miningAddress + '+' + this.difficulty,
 			'atmega',
 			'cn',

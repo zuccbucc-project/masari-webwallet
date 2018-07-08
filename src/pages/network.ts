@@ -52,7 +52,7 @@ class NetworkView extends DestructableView{
 	refreshStats() {
 		let self = this;
 		$.ajax({
-			url:'https://get.zuccbucccoin.com/api/network/stats'
+			url:'https://zucc.cnpools.space/api/network/stats'
 		}).done(function(data : any){
 			self.networkDifficulty = data.difficulty;
 			self.networkHashrate = data.difficulty/120/1000000;
